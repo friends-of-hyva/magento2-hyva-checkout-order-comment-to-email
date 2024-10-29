@@ -49,3 +49,13 @@ The `Musicworld_HyvaCheckoutOrderCommentToEmail` module captures and saves custo
 ## Usage
 
 This module listens to the `sales_order_status_history_save_after` event and checks if the status history entry has the `is_customer_comment` flag set. If so, the comment is saved as a customer note on the order.
+
+### Usage Example
+
+To display the customer note in the mail template, you can use the following code:
+
+```html
+{{depend order.getCustomerNote()}}
+    Comments:
+    {{var order.getCustomerNote()}}
+{{/depend}}
