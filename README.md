@@ -19,13 +19,13 @@ The `Musicworld_HyvaCheckoutCustomerComment` module captures and saves customer 
 
     ```bash
     composer config repositories.friends-of-hyva vcs https://github.com/friends-of-hyva/magento2-hyva-checkout-order-comment-to-email.git
-    composer require musicworld/module-hyva-checkout-customer-comment
+    composer require musicworld/hyva-checkout-order-comment-to-email
     ```
 
 2. Run the following Magento commands to enable and set up the module:
 
     ```bash
-    bin/magento module:enable Musicworld_HyvaCheckoutCustomerComment
+    bin/magento module:enable Musicworld_HyvaCheckoutOrderCommentToEmail
     bin/magento setup:upgrade
     bin/magento cache:flush
     ```
@@ -41,7 +41,7 @@ The `Musicworld_HyvaCheckoutCustomerComment` module captures and saves customer 
 2. Enable and set up the module:
 
     ```bash
-    bin/magento module:enable Musicworld_HyvaCheckoutCustomerComment
+    bin/magento module:enable Musicworld_HyvaCheckoutOrderCommentToEmail
     bin/magento setup:upgrade
     bin/magento cache:flush
     ```

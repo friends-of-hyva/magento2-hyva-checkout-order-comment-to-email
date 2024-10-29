@@ -1,5 +1,5 @@
 <?php
-namespace Musicworld\HyvaCheckoutCustomerComment\Observer;
+namespace Musicworld\HyvaCheckoutOrderCommentToEmail\Observer;
 
 use Magento\Framework\Event\Observer;
 use Magento\Framework\Event\ObserverInterface;

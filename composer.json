@@ -1,9 +1,10 @@
 {
-  "name": "musicworld/module-hyva-checkout-customer-comment",
-  "version": "1.0.0",
-  "description": "N/A",
+  "name": "musicworld/hyva-checkout-order-comment-to-email",
+  "description": "Magento 2 module to add customer comments to the order email in Hyvä Checkout",
   "type": "magento2-module",
+  "license": "proprietary",
   "require": {
+    "php": "^7.4 || ^8.1",
     "magento/framework": "*"
   },
   "autoload": {
@@ -11,7 +12,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "Musicworld\\HyvaCheckoutCustomerComment\\": ""
+      "Musicworld\\HyvaCheckoutOrderCommentToEmail\\": "src/"
     }
   }
 }
