@@ -12,7 +12,7 @@
       "src/registration.php"
     ],
     "psr-4": {
-      "Musicworld\\HyvaCheckoutOrderCommentToEmail\\": "src/"
+      "Musicworld\\HyvaCheckoutOrderCommentToEmail\\": "src"
     }
   }
 }
