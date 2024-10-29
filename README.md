@@ -1,9 +1,9 @@
 
-# Musicworld_HyvaCheckoutCustomerComment
+# Musicworld Hyvä Checkout Customer Comment Module
 
 ## Overview
 
-The `Musicworld_HyvaCheckoutCustomerComment` module captures and saves customer comments from the checkout process in Magento 2. When a customer leaves a comment on their order, this module ensures the comment is added to the order as a customer note, which can be visible on the frontend if configured as such.
+The `Musicworld_HyvaCheckoutOrderCommentToEmail` module captures and saves customer comments from the checkout process in Magento 2. When a customer leaves a comment on their order, this module ensures the comment is added to the order as a customer note, which can be visible on the frontend if configured as such.
 
 ## Requirements
 
